@@ -10,7 +10,12 @@
 // Використовуй метод includes() для перевірки, чи масив friends містить friendName.
 // Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи.У консоль будуть виведені результати її роботи.
 
+const filterByPrice = (cars, threshold) => {
+  return cars.filter(car => car.price < threshold);
+};
+
 const getUsersWithFriend = (users, friendName) =>
+  users.filter(user => allUsers.name === friendName);
 
 const allUsers = [
   {
