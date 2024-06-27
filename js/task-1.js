@@ -2,16 +2,9 @@
 
 // Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її викликів.
 
-// const planets = ['Earth', 'Mars', 'Venus', 'Jupiter'];
+const getUserNames = users => users.map(user => user.name);
 
-// const planetsInUpperCase = planets.map(planet => planet.toUpperCase());
-// console.log(planetsInUpperCase); // ["EARTH", "MARS", "VENUS", "JUPITER"]
-
-const getUserNames = users.map(user => user.name);
-
-// const names = students.map(student => student.name);
-
-console.log(getUserNames);
+console.log(getUserNames(users));
 
 getUserNames([
   {
